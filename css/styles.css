@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+main{
+    width:calc(75% - 60px);
+    float:left;
+    padding:30px;
+}
+aside{
+    width: calc(25% - 60px);
+    float: left;
+    border-left: none;
+    padding:30px;
+}
+footer{
+    clear:both;
+    padding:30px;
+}
+
+.logoContainer{
+    float:left;
+    width:200px;
+}
+
+.logoContainer .logo{
+    max-width:100%;
+}
+
+nav{
+    float:right;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display:inline-block;
+    padding:10px 20px
+}
+
+nav li a{
+    color:white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.heroImage{
+    width:100px;
+}
+
+.heroImage .imageContainer{
+    
+}
